@@ -33,10 +33,5 @@
     display: none;
   }
 }
-@media screen and (max-height: 856px) {
-  .content-number {
-    display: none;
-  }
-}
 
 /*# sourceMappingURL=content-number.css.map */

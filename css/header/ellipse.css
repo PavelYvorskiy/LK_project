@@ -128,7 +128,7 @@
     top: -150px;
   }
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 376px) {
   .ellipse {
     width: 55px;
     height: 55px;
@@ -174,32 +174,32 @@
     left: -10px;
   }
 }
-@media screen and (max-height: 375px) {
+/*@media screen and (max-height: 376px) {
   .ellipse {
     width: 75px;
     height: 75px;
+    &__one {
+      top: -80px;
+      left: 35px;
+    }
+    &__two {
+      left: 90%;
+      top: 450px;
+      z-index: 10;
+    }
+    &__svg {
+      width: 27px;
+      height: 27px;
+      &_one {
+        left: -5px;
+        bottom: -10px;
+      }
+      &_five {
+        bottom: 5px;
+        left: -10px;
+      }
+    }
   }
-  .ellipse__one {
-    top: -80px;
-    left: 35px;
-  }
-  .ellipse__two {
-    left: 90%;
-    top: 450px;
-    z-index: 10;
-  }
-  .ellipse__svg {
-    width: 27px;
-    height: 27px;
-  }
-  .ellipse__svg_one {
-    left: -5px;
-    bottom: -10px;
-  }
-  .ellipse__svg_five {
-    bottom: 5px;
-    left: -10px;
-  }
-}
+}*/
 
 /*# sourceMappingURL=ellipse.css.map */

@@ -13,17 +13,17 @@
   background-size: cover;
 }
 
-@media screen and (max-width: 856px) {
+@media screen and (max-width: 769px) {
   .navbar-content {
     max-width: 718px;
   }
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 376px) {
   .navbar-content {
     max-width: 290px;
   }
 }
-@media screen and (max-height: 768px) {
+/*@media screen and (max-height: 769px) {
   .navbar-content {
     max-width: 920px;
     height: 60px;
@@ -34,6 +34,6 @@
     max-width: 718px;
     height: 60px;
   }
-}
+}*/
 
 /*# sourceMappingURL=navbarContent.css.map */

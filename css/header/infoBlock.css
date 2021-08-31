@@ -142,7 +142,7 @@
     font-size: 60px;
   }
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 376px) {
   .info-block {
     max-width: 290px;
     max-height: 312px;

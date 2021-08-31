@@ -58,7 +58,7 @@
   background-image: url(../../assets/img/main/images_6.png);
 }
 
-@media screen and (max-width: 868px) {
+@media screen and (max-width: 769px) {
   .container-image {
     height: 387px;
     width: 50%;
@@ -68,18 +68,17 @@
     height: 100%;
   }
 }
-@media screen and (max-height: 768px) {
+/*@media screen and (max-height: 769px) {
   .container-image {
     height: 387px;
     width: 50%;
   }
-
   .content-img {
     height: 100%;
     width: 80%;
   }
-}
-@media screen and (max-width: 375px) {
+}*/
+@media screen and (max-width: 376px) {
   .container-image {
     height: 242px;
     width: 270px;

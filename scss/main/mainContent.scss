@@ -5,18 +5,18 @@
   align-items: flex-end;
   justify-content: space-between;
 }
-@media screen and (max-width: 856px) {
+@media screen and (max-width: 769px) {
   .main-content {
     max-width: 768px;
     height: 374px;
   }
 }
-@media screen and (max-height: 856px) {
+/*@media screen and (max-height: 856px) {
   .main-content {
     height: 374px;
   }
-}
-@media screen and (max-width: 375px) {
+}*/
+@media screen and (max-width: 376px) {
   .main-content {
     flex-direction: column;
     height: 480px;

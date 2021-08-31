@@ -47,7 +47,7 @@
     text-align: right;
   }
 }
-@media screen and (max-width: 856px) {
+@media screen and (max-width: 769px) {
   .content-text {
     height: 387px;
     width: 50%;
@@ -66,7 +66,7 @@
     }
   }
 }
-@media screen and (max-height: 856px) {
+/*@media screen and (max-height: 856px) {
   .content-text {
     height: 378px;
     width: 50%;
@@ -84,8 +84,8 @@
       font-size: 16px;
     }
   }
-}
-@media screen and (max-width: 375px) {
+}*/
+@media screen and (max-width: 376px) {
   .content-text {
     height: 242px;
     width: 100%;

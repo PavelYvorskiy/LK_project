@@ -48,7 +48,7 @@
   text-align: right;
 }
 
-@media screen and (max-width: 856px) {
+@media screen and (max-width: 769px) {
   .content-text {
     height: 387px;
     width: 50%;
@@ -68,27 +68,26 @@
     font-size: 18px;
   }
 }
-@media screen and (max-height: 856px) {
+/*@media screen and (max-height: 856px) {
   .content-text {
     height: 378px;
     width: 50%;
   }
-
   .text-container {
     width: 80%;
     justify-content: center;
+    &__number {
+      font-size: 258px;
+    }
+    &__text {
+      font-size: 60px;
+    }
+    &__description {
+      font-size: 16px;
+    }
   }
-  .text-container__number {
-    font-size: 258px;
-  }
-  .text-container__text {
-    font-size: 60px;
-  }
-  .text-container__description {
-    font-size: 16px;
-  }
-}
-@media screen and (max-width: 375px) {
+}*/
+@media screen and (max-width: 376px) {
   .content-text {
     height: 242px;
     width: 100%;

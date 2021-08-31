@@ -48,15 +48,15 @@ export const langArr = {
   mainContent: {
     title: {
       one: {
-        en: "top manager",
+        en: "Top manager",
         he: "הריירקב םודיק",
       },
       two: {
-        en: "development",
+        en: "Development",
         he: "םיקסעב החלצה",
       },
       three: {
-        en: "lovers in love",
+        en: "Lovers in love",
         he: "הבוט תויגוז",
       },
       four: {
@@ -64,7 +64,7 @@ export const langArr = {
         he: "תכמות הביבס",
       },
       five: {
-        en: "happy family",
+        en: "Happy family",
         he: "תשבוגמ החפשמ",
       },
       six: {

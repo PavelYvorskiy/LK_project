@@ -79,12 +79,12 @@
   box-shadow: 0px 7px 20px 0px #e53a4fa6;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
   .infoBlock-main {
     max-width: 718px;
   }
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 376px) {
   .infoBlock-main {
     max-width: 290px;
     height: 316px;

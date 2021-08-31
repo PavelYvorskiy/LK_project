@@ -1,0 +1,102 @@
+.infoBlock-main {
+  max-width: 1218px;
+  height: 423px;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 120px;
+}
+.infoBlock {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 20px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 350px;
+  &__one {
+    top: 0;
+    z-index: 9;
+    background-image: url(../../assets/img/main/InfoBlock.png);
+  }
+  &__two {
+    width: 95%;
+    opacity: 60%;
+    top: 18px;
+    z-index: 8;
+    background: linear-gradient(148.75deg, #719ceb 1.24%, #2e74f0 100.54%);
+  }
+  &__three {
+    width: 88%;
+    opacity: 20%;
+    top: 36px;
+    z-index: 7;
+    background: linear-gradient(148.75deg, #08080f 1.24%, #2e74f0 100.54%);
+  }
+  &__four {
+    width: 80%;
+    opacity: 5%;
+    top: 54px;
+    z-index: 6;
+    background: linear-gradient(148.75deg, #08080f 1.24%, #2e74f0 100.54%);
+  }
+  &__five {
+    width: 72%;
+    opacity: 2%;
+    top: 72px;
+    z-index: 5;
+    background: linear-gradient(148.75deg, #08080f 1.24%, #2e74f0 100.54%);
+  }
+  &__content {
+    width: 639px;
+    height: 240px;
+    color: #fff;
+    position: relative;
+  }
+  &__text {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    padding-bottom: 30px;
+    text-align: center;
+  }
+  &__btn {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 17px 60px;
+    font-weight: bold;
+    font-size: 24px;
+    background: #e53a4f;
+    color: #fff;
+    border-radius: 60px;
+    box-shadow: 0px 7px 20px 0px #e53a4fa6;
+  }
+}
+@media screen and(max-width: 768px) {
+  .infoBlock-main {
+    max-width: 718px;
+  }
+}
+@media screen and(max-width: 375px) {
+  .infoBlock-main {
+    max-width: 290px;
+    height: 316px;
+  }
+  .infoBlock {
+    height: 261px;
+    &__text {
+      font-size: 26px;
+      line-height: 33px;
+      padding: 30px 0;
+    }
+    &__btn {
+      font-size: 18px;
+      padding: 12px 34px;
+    }
+  }
+}

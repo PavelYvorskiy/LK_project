@@ -1,0 +1,14 @@
+.header {
+  max-width: 100%;
+  min-height: 1010px;
+  background-image: url("../../assets/PNG/header/background-image.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: block;
+}
+@media screen and (max-width: 375px) {
+  .header {
+    min-height: 650px;
+  }
+}

@@ -1,0 +1,13 @@
+.main {
+  margin: 0 auto;
+  margin-top: 20px;
+  max-width: 1480px;
+}
+
+@media screen and (max-width: 375px) {
+  .main {
+    max-width: 320px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

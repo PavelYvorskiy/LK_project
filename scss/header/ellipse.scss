@@ -1,0 +1,204 @@
+.ellipse {
+  display: block;
+  width: 117px;
+  height: 125px;
+  background-size: cover;
+  transition: all 2s;
+  position: absolute;
+  &__one {
+    width: 115px;
+    height: 117px;
+    left: 10%;
+    top: -100px;
+    background-image: url(../../assets/img/header/image_1.1.png);
+  }
+  &__two {
+    left: -170px;
+    top: 60px;
+    background-image: url(../../assets/img/header/image_2.1.png);
+  }
+  &__three {
+    left: -90px;
+    bottom: 77px;
+    z-index: 10;
+    background-image: url(../../assets/img/header/image_3.1.png);
+  }
+  &__four {
+    width: 127px;
+    height: 135px;
+    right: -115px;
+    bottom: 5px;
+    z-index: 10;
+    background-image: url(../../assets/img/header/image_4.1.png);
+  }
+  &__five {
+    right: -200px;
+    top: 25%;
+    width: 92px;
+    height: 97px;
+    background-image: url(../../assets/img/header/image_5.1.png);
+  }
+  &__img {
+    position: absolute;
+    left: 0;
+    animation-name: active-image;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  &__svg {
+    width: 57px;
+    height: 64px;
+    background-size: cover;
+    position: absolute;
+    animation-name: active-svg;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+    &_one {
+      left: -25px;
+      bottom: -20px;
+      z-index: 10;
+      background-image: url(../../assets/PNG/header/icon_1.1.png);
+    }
+    &_two {
+      left: -10px;
+      top: -10px;
+      background-image: url(../../assets/PNG/header/icon_1.2.png);
+    }
+    &_three {
+      left: -10px;
+      top: -10px;
+      background-image: url(../../assets/PNG/header/icon_1.3.png);
+    }
+    &_four {
+      left: -45px;
+      top: 30px;
+      background-image: url(../../assets/PNG/header/icon_1.4.png);
+    }
+    &_five {
+      bottom: 5px;
+      left: -35px;
+      background-image: url(../../assets/PNG/header/icon_1.5.png);
+    }
+  }
+}
+@keyframes active-image {
+  0% {
+    width: 105%;
+  }
+  100% {
+    width: 95%;
+  }
+}
+@keyframes active-svg {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(180deg);
+  }
+}
+@media screen and (max-width: 768px) {
+  .ellipse {
+    width: 95px;
+    height: 95px;
+    &__one {
+      top: -120px;
+    }
+    &__two {
+      left: 310px;
+      top: 500px;
+    }
+    &__three {
+      left: 10px;
+      bottom: -7px;
+      z-index: 10;
+    }
+    &__four {
+      right: 10px;
+      bottom: -7px;
+    }
+    &__five {
+      right: 150px;
+      top: -150px;
+    }
+  }
+}
+@media screen and (max-width: 375px) {
+  .ellipse {
+    width: 55px;
+    height: 55px;
+    &__one {
+      top: -60px;
+      left: 35px;
+    }
+    &__two {
+      left: 45%;
+      top: 275px;
+    }
+    &__three {
+      left: 10px;
+      bottom: -10px;
+      display: block;
+      z-index: 10;
+    }
+    &__four {
+      left: 90%;
+      top: 215px;
+      z-index: 10;
+      display: block;
+    }
+    &__five {
+      right: 50px;
+      top: -80px;
+    }
+    &__svg {
+      width: 27px;
+      height: 27px;
+      &_one {
+        left: -5px;
+        bottom: -10px;
+      }
+      &_four {
+        left: -15px;
+        top: -3px;
+      }
+      &_five {
+        bottom: 5px;
+        left: -10px;
+      }
+    }
+  }
+}
+
+@media screen and (max-height: 375px) {
+  .ellipse {
+    width: 75px;
+    height: 75px;
+    &__one {
+      top: -80px;
+      left: 35px;
+    }
+    &__two {
+      left: 90%;
+      top: 450px;
+      z-index: 10;
+    }
+    &__svg {
+      width: 27px;
+      height: 27px;
+      &_one {
+        left: -5px;
+        bottom: -10px;
+      }
+      &_five {
+        bottom: 5px;
+        left: -10px;
+      }
+    }
+  }
+}

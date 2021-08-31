@@ -1,0 +1,143 @@
+.navbar {
+  display: flex;
+  align-items: baseline;
+}
+.navbar__btn {
+  display: none;
+  position: absolute;
+  right: 10px;
+  top: 40px;
+  background: #fff;
+  box-shadow: -2px 6px 10px 0px #ffffff7d;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  outline: none;
+  cursor: pointer;
+}
+.navbar__menu {
+  display: flex;
+}
+.navbar__item {
+  display: inline-block;
+  align-items: center;
+  padding: 0 25px;
+}
+.navbar__link {
+  display: inline-block;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.btn-language {
+  width: 60px;
+  height: 100%;
+  background-color: transparent;
+  border-radius: 10px;
+  background-image: url(https://i.pinimg.com/originals/71/0a/94/710a9474e520c9559f41a66e5586169f.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.btn-language.active {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Flag_of_the_United_Kingdom.svg/1280px-Flag_of_the_United_Kingdom.svg.png);
+}
+
+@media screen and (max-width: 768px) {
+  .btn-language {
+    width: 90px;
+    height: 45px;
+  }
+
+  .navbar {
+    align-items: center;
+  }
+  .navbar__btn {
+    display: block;
+    overflow: hidden;
+    outline: none;
+    text-decoration: none;
+    z-index: 99;
+    margin-right: 10px;
+  }
+  .navbar__btn span {
+    display: block;
+    position: absolute;
+    top: 23px;
+    transform: rotate(180deg);
+    height: 2px;
+    width: 15px;
+    right: 12px;
+    background: #3a5ee5;
+    transition: all 2s;
+  }
+  .navbar__btn span::before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0px;
+    height: 2px;
+    width: 25px;
+    background: #3a5ee5;
+    top: 8px;
+  }
+  .navbar__btn span::after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0px;
+    height: 2px;
+    width: 25px;
+    background: #3a5ee5;
+    bottom: 8px;
+  }
+  .navbar__menu {
+    background-color: #fff;
+    box-shadow: -6px 0px 20px 9px #00000069;
+    position: absolute;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+    min-height: 840px;
+    top: 0;
+    right: 0;
+    opacity: 90%;
+    transform: translateX(100%);
+    transition: all 2s;
+    visibility: visible;
+    z-index: 98;
+  }
+  .navbar__item {
+    padding: 15px 0;
+    display: block;
+  }
+  .navbar__item:nth-child(1) {
+    margin-top: 100px;
+  }
+  .navbar__link {
+    color: #2e3262;
+  }
+  .navbar.active .navbar__menu {
+    visibility: visible;
+    transition: all 2s;
+    transform: translateX(0);
+  }
+  .navbar.active .navbar__btn span {
+    transition: all 0s;
+    width: 0;
+  }
+  .navbar.active .navbar__btn span::after {
+    bottom: 1px;
+    transform: rotate(45deg);
+  }
+  .navbar.active .navbar__btn span::before {
+    top: 0;
+    transform: rotate(-45deg);
+  }
+}
+
+/*# sourceMappingURL=navbar.css.map */

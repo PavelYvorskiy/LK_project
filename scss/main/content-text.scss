@@ -1,0 +1,117 @@
+.content-text {
+  width: 49%;
+  height: 578px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.text-container {
+  height: 377px;
+  width: 474px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+  &__title {
+    height: 60%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+  }
+  &__number {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-weight: 900;
+    font-size: 288px;
+    color: #3a5ee5;
+    opacity: 0.1;
+    &_one {
+      right: -40px;
+    }
+  }
+  &__text {
+    position: absolute;
+    font-weight: bold;
+    font-size: 64px;
+    color: #3a5ee5;
+    top: 50%;
+    transform: translateY(-50%);
+    direction: rtl;
+  }
+  &__description {
+    font-size: 20px;
+    line-height: 170%;
+    color: #2e3262;
+    text-align: right;
+  }
+}
+@media screen and (max-width: 856px) {
+  .content-text {
+    height: 387px;
+    width: 50%;
+    align-items: flex-start;
+  }
+  .text-container {
+    width: 80%;
+    &__number {
+      font-size: 228px;
+    }
+    &__text {
+      font-size: 42px;
+    }
+    &__description {
+      font-size: 18px;
+    }
+  }
+}
+@media screen and (max-height: 856px) {
+  .content-text {
+    height: 378px;
+    width: 50%;
+  }
+  .text-container {
+    width: 80%;
+    justify-content: center;
+    &__number {
+      font-size: 258px;
+    }
+    &__text {
+      font-size: 60px;
+    }
+    &__description {
+      font-size: 16px;
+    }
+  }
+}
+@media screen and (max-width: 375px) {
+  .content-text {
+    height: 242px;
+    width: 100%;
+    align-items: center;
+  }
+  .text-container {
+    max-width: 100%;
+    max-height: 230px;
+    &__number {
+      font-size: 144px;
+      font-weight: 700;
+      right: 15%;
+    }
+    &__text {
+      font-size: 30px;
+      font-size: 500;
+      text-align: center;
+    }
+    &__description {
+      font-size: 15px;
+      font-weight: 400;
+      text-align: center;
+      width: 100%;
+    }
+    &__title {
+      justify-content: center;
+    }
+  }
+}

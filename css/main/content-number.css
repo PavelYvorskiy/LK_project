@@ -1,5 +1,5 @@
 .content-number {
-  height: 528px;
+  height: 527px;
   width: 90px;
   display: flex;
   flex-direction: column;
@@ -14,7 +14,7 @@
   align-items: center;
   justify-content: center;
   width: 90px;
-  height: 90px;
+  height: 91px;
   border-radius: 50%;
   background: #3a5ee5;
   box-shadow: 0px 9px 16px 0px #3a5ee554;
@@ -23,7 +23,7 @@
   font-weight: 900;
 }
 .content-number__line {
-  height: 244px;
+  height: 218px;
   border: 1px solid #3a5ee5;
   opacity: 0.2;
 }

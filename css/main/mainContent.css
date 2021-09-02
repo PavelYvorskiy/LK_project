@@ -12,11 +12,6 @@
     height: 374px;
   }
 }
-/*@media screen and (max-height: 856px) {
-  .main-content {
-    height: 374px;
-  }
-}*/
 @media screen and (max-width: 376px) {
   .main-content {
     flex-direction: column;

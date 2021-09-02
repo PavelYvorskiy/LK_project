@@ -68,16 +68,6 @@
     height: 100%;
   }
 }
-/*@media screen and (max-height: 769px) {
-  .container-image {
-    height: 387px;
-    width: 50%;
-  }
-  .content-img {
-    height: 100%;
-    width: 80%;
-  }
-}*/
 @media screen and (max-width: 376px) {
   .container-image {
     height: 242px;
